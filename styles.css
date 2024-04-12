@@ -1,21 +1,29 @@
 body{
     margin: 0 auto;
     text-align: center;
-    height:100%
+    height:100%;
 }
 :root{
     --minion-yellow:rgb(245,224,80);
 }
 
 #inputTxt, #outputTxt{
-    /* display:block; */
-    margin-top:2rem;
+    display:block;
+    margin:1rem;
     padding:1rem;
     width:45%;
     height:80px;
     margin-left: auto;
     margin-right: auto;
     border:0.1rem solid var(--minion-yellow);
+    background-image: url(images/minionEyes.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: larger;
+    font-family:sans-serif;
+    font-weight: 600;
 }
 
 #btn-translate{
@@ -23,9 +31,6 @@ body{
     padding:1rem;
     background-color: rgb(10,117,188);
     color: white;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .header, footer{
@@ -46,7 +51,6 @@ body{
 }
 
 .img{
-    display: inline;
-    width: 10%;
-    height: 80px;
+    width:100px;
+    height:100px;
 }
