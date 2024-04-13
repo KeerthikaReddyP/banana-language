@@ -2,6 +2,7 @@ body{
     margin: 0 auto;
     text-align: center;
     height:100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 :root{
     --minion-yellow:rgb(245,224,80);
@@ -31,6 +32,7 @@ body{
     padding:1rem;
     background-color: rgb(10,117,188);
     color: white;
+    font-family: cursive;
 }
 
 .header, footer{
@@ -53,4 +55,17 @@ body{
 .img{
     width:100px;
     height:100px;
+}
+
+.para{
+    font-family: cursive;
+}
+
+.headings{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.icon{
+    width: 1.5em;
+    margin-right: .5rem;
 }
