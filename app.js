@@ -9,6 +9,9 @@ function url(text){
     return serverURL+"?"+"text="+text;
 }
 
+function errorHandler(error){
+    console.log("error occured: "+error);
+}
 
 function translate(){
     fetch(url(input.value))
@@ -16,7 +19,8 @@ function translate(){
         .then(
             json=>
             output.innerHTML=json.contents.translated
-        );
+        )
+        .catch(errorHandler);
 }
 
 
