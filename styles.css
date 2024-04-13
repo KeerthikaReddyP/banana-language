@@ -69,3 +69,12 @@ body{
     width: 1.5em;
     margin-right: .5rem;
 }
+
+#aside{
+  width: 25%;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: lightgray;
+  margin: auto;
+  display: none;
+}

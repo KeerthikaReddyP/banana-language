@@ -11,6 +11,8 @@ function url(text){
 
 function errorHandler(error){
     console.log("error occured: "+error);
+    var err=document.querySelector("#aside");
+    err.style.display="block";
 }
 
 function translate(){
